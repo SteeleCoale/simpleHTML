@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path')
 
-const port = 80;
+const port = 3000;
 
 app.get('/', (req, res) => {
   res.set({ "content-type": "text/html; charset=UTF-8" })
